@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mailer.API", "MailerApi\Mailer.API.csproj", "{00AC7500-90B7-47C0-9ABA-233C011EAFB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mailer.Models", "Mailer.Models\Mailer.Models.csproj", "{33A432A3-3624-4914-98E2-353C6269B74F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mailer.BLL", "Mailer.BLL\Mailer.BLL.csproj", "{D71291AC-A4EC-4C54-BC3C-2B12408E35ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mailer.DAL", "Mailer.DAL\Mailer.DAL.csproj", "{FF0D35A0-633F-409B-A3A0-65C9961FC98C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mailer.Contracts", "Mailer.Contracts\Mailer.Contracts.csproj", "{AB8466CC-53D5-4E12-90DE-5144E7183AD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailerWinForms", "MailerWinForms\MailerWinForms.csproj", "{FDFBF0DD-48A8-4C48-B722-D444B182FAA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{CDEA6315-C9AF-4BB1-A074-DD1F47F28BD3}"
+	ProjectSection(SolutionItems) = preProject
+		Build\appsettings.Development.json = Build\appsettings.Development.json
+		Build\appsettings.json = Build\appsettings.json
+		Build\aspnetcorev2_inprocess.dll = Build\aspnetcorev2_inprocess.dll
+		Build\D3DCompiler_47_cor3.dll = Build\D3DCompiler_47_cor3.dll
+		Build\Mailer.API.exe = Build\Mailer.API.exe
+		Build\MailerWinForms.exe = Build\MailerWinForms.exe
+		Build\Microsoft.Data.SqlClient.SNI.dll = Build\Microsoft.Data.SqlClient.SNI.dll
+		Build\PenImc_cor3.dll = Build\PenImc_cor3.dll
+		Build\PresentationNative_cor3.dll = Build\PresentationNative_cor3.dll
+		Build\vcruntime140_cor3.dll = Build\vcruntime140_cor3.dll
+		Build\web.config = Build\web.config
+		Build\wpfgfx_cor3.dll = Build\wpfgfx_cor3.dll
+		Build\Спецификация.txt = Build\Спецификация.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00AC7500-90B7-47C0-9ABA-233C011EAFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AC7500-90B7-47C0-9ABA-233C011EAFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AC7500-90B7-47C0-9ABA-233C011EAFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AC7500-90B7-47C0-9ABA-233C011EAFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A432A3-3624-4914-98E2-353C6269B74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A432A3-3624-4914-98E2-353C6269B74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A432A3-3624-4914-98E2-353C6269B74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A432A3-3624-4914-98E2-353C6269B74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71291AC-A4EC-4C54-BC3C-2B12408E35ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71291AC-A4EC-4C54-BC3C-2B12408E35ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71291AC-A4EC-4C54-BC3C-2B12408E35ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71291AC-A4EC-4C54-BC3C-2B12408E35ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0D35A0-633F-409B-A3A0-65C9961FC98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0D35A0-633F-409B-A3A0-65C9961FC98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0D35A0-633F-409B-A3A0-65C9961FC98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0D35A0-633F-409B-A3A0-65C9961FC98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8466CC-53D5-4E12-90DE-5144E7183AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8466CC-53D5-4E12-90DE-5144E7183AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8466CC-53D5-4E12-90DE-5144E7183AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8466CC-53D5-4E12-90DE-5144E7183AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFBF0DD-48A8-4C48-B722-D444B182FAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFBF0DD-48A8-4C48-B722-D444B182FAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFBF0DD-48A8-4C48-B722-D444B182FAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFBF0DD-48A8-4C48-B722-D444B182FAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8232F3D0-B159-4446-84C3-8DE2DBBF631E}
+	EndGlobalSection
+EndGlobal
